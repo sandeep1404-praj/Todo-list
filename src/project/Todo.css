@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background-color:#0A1045;
+}
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: row;
+}
+.todo-input{
+    height: 6vh;
+    width: 22vw;
+    border-top-left-radius:18px ;
+    border-end-start-radius: 18px;
+    text-align: center;
+    color: black;
+}
+.add-button{
+    height: 6.5vh;
+    width: 8vw;
+    background-color: #001b66;
+    border-top-right-radius:18px ;
+    border-end-end-radius: 18px;
+    color: #ffffff;
+    font-size: 19px;
+}
+/* list style  */
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px;
+    
+}
+li{
+    list-style-type: none;
+    width: 28%;
+    border-radius: 18px;
+    text-align: center;
+    background-color: #CFC7D2;
+    padding: 10px;
+    margin: 11px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word; /* Forces the text to wrap */
+  word-break: break-word; /* Alternate for word-breaking in long strings */
+  overflow-wrap: break-word;
+  
+    
+}
+.span{
+    
+    color: black;
+    font-size: 21px;
+    text-align: start;
+    width: 20vw;
+    
+}
+.checked{
+    color: black;
+    font-size: 21px;
+    text-align: start;
+    width: 20vw;
+    text-decoration: line-through;
+}
+.notCheck{
+    color: black;
+    font-size: 21px;
+    text-align: start;
+    width: 20vw;
+    text-decoration: none;
+}
+.btn-class{
+    display: flex;
+    justify-content: space-between;
+}
+.check-btn{
+    color: black;
+    margin: 0 15px;
+    font-size: 25px;
+    background-color: #CFC7D2;
+    border: none;
+    color: green;
+}
+.del-btn{
+    margin: 0 15px;
+    font-size: 25px;
+    background-color: #CFC7D2;
+    border: none;
+    color: red;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clearbtn{
+    padding: 10px;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 5px;
+}
